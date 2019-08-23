@@ -55,9 +55,6 @@ SCHEDULES = {
 }
 
 
-class Learner(object):
-    
-    
 class BertLearner(object):
     data:BertDataBunch
     model:torch.nn.Module
